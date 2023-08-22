@@ -4,4 +4,5 @@ A custom chatbot that uses Langchain, ChromaDB, and GPT-4 to answer questions ab
 
 TODO:
 - [ ] better splitting of webpages for db logic
-- [ ] theorization about One Piece not just 
+- [ ] theorization about One Piece not just summarise DB
+- [ ] real-chat functions, e.g. ask follow-up question

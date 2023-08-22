@@ -2,7 +2,7 @@ from langchain.text_splitter import CharacterTextSplitter
 
 text_splitter = CharacterTextSplitter(
     # separator="\n",
-    chunk_size=1000,
+    chunk_size=1000, #try smaller values e.g. 100 
     chunk_overlap=150,
     length_function=len
 )

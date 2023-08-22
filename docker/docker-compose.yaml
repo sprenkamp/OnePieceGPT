@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  bot:
+    build:
+      context: ..
+      dockerfile: docker/onepiece_bot_image.dockerfile
+    environment:
+      - telegram_OnePieceNavigator_bot=${telegram_OnePieceNavigator_bot}
+      - OPENAI_ORGANIZATION=${OPENAI_ORGANIZATION}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
